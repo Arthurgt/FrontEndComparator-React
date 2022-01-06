@@ -1,0 +1,103 @@
+.crud-main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h2, .form__label, .form__field {
+      color: rgb(211,212,217);
+    }
+
+    .grid {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        margin-top: 10px;
+        
+        .spam-container {
+            margin-bottom: 20px;
+        }
+
+        .form__group {
+            position: relative;
+            padding: 15px 0 0;
+            margin-top: 10px;
+            width: 50%;
+          }
+          
+          .form__field {
+            width: 100%;
+            border: 0;
+            border-bottom: 2px solid gray;
+            outline: 0;
+            padding: 7px 0;
+            background: transparent;
+            transition: border-color 0.2s;
+          
+            &::placeholder {
+              color: transparent;
+            }
+          
+            &:placeholder-shown ~ .form__label {
+              font-size: 1.3rem;
+              cursor: text;
+              top: 20px;
+            }
+          }
+          
+          .form__label {
+            position: absolute;
+            top: 0;
+            display: block;
+            transition: 0.2s;
+            color: gray;
+          }
+          
+          .form__field:focus {
+            ~ .form__label {
+              position: absolute;
+              top: 0;
+              display: block;
+              transition: 0.2s;
+              color: red; 
+            }
+            padding-bottom: 6px;  
+            border-width: 3px;
+            border-image: linear-gradient(to right, red, green);
+            border-image-slice: 1;
+          }
+          /* reset input */
+          .form__field{
+            &:required,&:invalid { box-shadow:none; }
+          }
+
+          .button {
+            border-width: 4px;
+            border-style: solid;
+            background-color: #ebecf2;
+            border-image: linear-gradient(to right, black, gray) 1;
+            margin-top: 2px;
+            margin-bottom: 1px;
+            width: 100px;
+            transition: background-color 0.2s, width 0.1s;
+          }
+
+          .button:hover {
+              background-color: rgb(221, 215, 215);
+          }
+
+          .button:active {
+              width: 70px;
+          }
+
+          .spam-button {
+              margin-right: 3px;
+              width: 150px;
+          }
+
+          .button-row {
+              padding-top: 10px;
+              padding-bottom: 10px;
+          }
+    }
+}

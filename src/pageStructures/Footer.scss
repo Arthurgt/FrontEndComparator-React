@@ -1,0 +1,36 @@
+footer {
+    height: 8vh;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+@media(min-width: 576px) {
+    footer {
+        height: 10vh;
+    }
+    
+    footer p {
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 992px) {   
+    footer p {
+        font-size: 22px;
+    }
+}
+
+@media(min-width: 1200px) {
+    footer p {
+        font-size: 23px;
+    }
+}
+
+@media(min-width: 1400px) {
+    footer p {
+        font-size: 24px;
+    }
+}

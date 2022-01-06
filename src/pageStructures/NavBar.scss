@@ -1,0 +1,108 @@
+.mynavbar .brand a {
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+.mynavbar .brand a:hover {
+    color: #00d8ff;
+}
+.mynavbar .brand .icon {
+    font-size: 14px;
+    color: #00d8ff;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.mynavbar .menu .navbar-toggler .navbar-toggler-icon {
+    font-size: 12px;
+}
+.mynavbar .menu .navbar-collapse a {
+    font-size: 12px;
+    transition: color 0.3s;
+}
+.mynavbar .menu .navbar-collapse a:hover {
+    color: #00d8ff;
+}
+.mynavbar .menu .navbar-collapse .app-change a {
+    font-size: 16px;
+}
+.mynavbar .menu .navbar-collapse .app-change .fa-angular {
+    transition: color 0.3s;
+}
+.mynavbar .menu .navbar-collapse .app-change .fa-angular:hover {
+    color: red;
+}
+.mynavbar .menu .navbar-collapse .app-change .fa-react {
+    transition: color 0.3s;
+}
+.mynavbar .menu .navbar-collapse .app-change .fa-react:hover {
+    color: #00d8ff;
+}
+.mynavbar .menu .navbar-collapse .app-change .fa-vuejs {
+    transition: color 0.3s;
+}
+.mynavbar .menu .navbar-collapse .app-change .fa-vuejs:hover {
+    color: #41b883;
+}
+
+@media (min-width: 576px) {
+    .mynavbar .brand a {
+        font-size: 18px;
+   }
+   .mynavbar .brand i {
+        font-size: 18px;
+   }
+   .mynavbar .menu .navbar-toggler .navbar-toggler-icon {
+        font-size: 16px;
+   }
+   .mynavbar .menu .navbar-collapse a {
+        font-size: 16px;
+   }
+   .mynavbar .menu .navbar-collapse .app-change a {
+        font-size: 24px;
+   }
+}
+
+@media (min-width: 992px) {
+    .mynavbar .brand a {
+        font-size: 19px;
+   }
+   .mynavbar .brand .icon {
+        font-size: 19px;
+   }
+   .mynavbar .menu .navbar-collapse a {
+        font-size: 12px;
+   }
+   .mynavbar .menu .navbar-collapse .app-change a {
+        font-size: 20px;
+   }
+}
+
+@media (min-width: 1200px) {
+    .mynavbar .brand a {
+        font-size: 20px;
+   }
+   .mynavbar .brand .icon {
+        font-size: 20px;
+   }
+   .mynavbar .menu .navbar-collapse a {
+        font-size: 17px;
+   }
+   .mynavbar .menu .navbar-collapse .app-change a {
+        font-size: 22px;
+   }
+}
+
+@media (min-width: 1400px) {
+    .mynavbar .brand a {
+        font-size: 22px;
+   }
+   .mynavbar .brand .icon {
+        font-size: 22px;
+   }
+   .mynavbar .menu .navbar-collapse a {
+        font-size: 20px;
+   }
+   .mynavbar .menu .navbar-collapse .app-change a {
+        font-size: 24px;
+   }
+}

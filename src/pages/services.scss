@@ -1,0 +1,115 @@
+.services-main {
+    height: 100vh;
+
+    .performance-measure {
+        margin:auto;
+        background-color: rgb(211,212,217);
+        border: solid white;
+        border-radius: 15px;
+      }
+
+    .container {
+        height: 100vh;    
+        background-color: rgba(0,0,0, 0.1);
+        border-radius: 15px;
+    }
+
+    h3 {
+        font-size: 28px;
+        color: rgb(211,212,217);
+    }
+
+    p {
+        font-size: 16px;
+        text-align: justify;
+        color: rgb(211,212,217);
+    }
+
+    input {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media(min-width: 576px) {
+    .services-main {
+        height: 90vh;
+    
+        .container {
+            height: 60vh; 
+        }
+    
+        h3 {
+            font-size: 32px;
+        }
+    
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    .services-main {
+        height: 90vh;
+    
+        .container {
+            height: 60vh;
+            box-shadow: 5px 5px 50px black;    
+        }
+    
+        h3 {
+            font-size: 34px;
+        }
+    
+        p {
+            font-size: 22px;
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    .services-main {
+        height: 90vh;
+    
+        .container {
+            height: 60vh;    
+        }
+    
+        h3 {
+            font-size: 35px;
+        }
+    
+        p {
+            font-size: 23px;
+        }
+    }
+}
+
+@media(min-width: 1400px) {
+    .services-main {
+        height: 90vh;
+    
+        .container {
+            height: 60vh;    
+        }
+    
+        h3 {
+            font-size: 36px;
+        }
+    
+        p {
+            font-size: 24px;
+        }
+    }
+}
+
+@media(min-width: 576px) and (max-height: 680px) {
+    .services-main {
+        height: 100vh;
+    
+        .container {
+            height: 100vh;    
+        }
+    }
+}

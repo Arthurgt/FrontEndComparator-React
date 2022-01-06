@@ -1,0 +1,99 @@
+.about-main .container {
+    height: 100vh;    
+    background-color: rgb(211,212,217);
+    border-radius: 15px;
+}
+
+.about-main .icon {
+    color: rgb(0,216,255);
+}
+
+.about-main h1 {
+    font-size: 28px;
+}
+
+.about-main h1 i {
+    color: red;
+}
+
+.about-main p {
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+}
+
+.angular {
+    color: red;
+}
+
+.vuejs {
+    color: rgb(65,184,131);
+}
+
+.react {
+    color: rgb(0,216,255);
+}
+
+@media(min-width: 576px) {
+    .about-main {
+        height: 90vh;
+    }
+
+    .about-main .container {
+        height: 60vh;
+    }
+    
+    .about-main h1 {
+        font-size: 32px;
+    }
+    
+    .about-main p {
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width: 992px) {   
+    .about-main h1 {
+        font-size: 34px;
+    }
+    
+    .about-main p {
+        font-size: 22px;
+    }
+
+    .about-main .container {
+        height: 60vh;
+        box-shadow: 5px 5px 50px white; 
+    }
+}
+
+@media(min-width: 1200px) {
+    .about-main h1 {
+        font-size: 35px;
+    }
+    
+    .about-main p {
+        font-size: 23px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .about-main h1 {
+        font-size: 36px;
+    }
+    
+    .about-main p {
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 576px) and (max-height: 680px) {
+    .about-main {
+        height: 100vh;
+    }
+
+    .about-main .container {
+        height: 100vh;  
+    }
+}
